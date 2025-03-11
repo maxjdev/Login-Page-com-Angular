@@ -1,27 +1,37 @@
-# LoginPage
+# Login-Page - Página de Autenticação
+ 
+Este projeto em Angular oferece uma experiência moderna e intuitiva para autenticação de usuários, com telas de Login e Cadastro.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.12.
+## Tecnologias Utilizadas
 
-## Development server
+- **Angular**
+- **TypeScript**
+- **SCSS**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prints
 
-## Code scaffolding
+![Login](/img/Login.png)
+![Login](/img/Cadastro.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como Executar o Projeto
 
-## Build
+1. **Clone o repositório:**
+   ```sh
+    git clone https://github.com/maxjdev/Login-Page-com-Angular
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Instale as dependências:**
+   ```sh
+    npm install
+   ```
 
-## Running unit tests
+3. **Inicie o servidor de desenvolvimento:**
+   ```sh
+    ng serve
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Acesse no navegador:**
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Abra http://localhost:4200/login para página de login<br>
+ou<br>
+- Abra http://localhost:4200/signup para página de cadastro
